@@ -5,7 +5,7 @@
 | **Updated**         | 2023-03-31                                |
 
 # Garbage Collection Interview Question
-- [#1](https://github.com/navidZee/interview-question/blob/main/c%23-.Net/gc.md#start) <a name='start'> What is Garbage Collection in C#? </a>
+- [#1](https://github.com/navidZee/interview-question/blob/main/c%23-.Net/gc.md#q1) <a name='q1'> What is Garbage Collection in C#? </a>
   - Garbage collection in C# is the automatic process of managing memory allocation and deallocation for objects during program execution. In C#, objects are created on the heap, and the garbage collector periodically identifies objects that are no longer being used by the program and frees up their memory.
 
 
