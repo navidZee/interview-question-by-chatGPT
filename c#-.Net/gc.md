@@ -9,7 +9,7 @@
   - Garbage collection in C# is the automatic process of managing memory allocation and deallocation for objects during program execution. In C#, objects are created on the heap, and the garbage collector periodically identifies objects that are no longer being used by the program and frees up their memory.
 
 
-- [#2](https://github.com/navidZee/interview-question/blob/main/c%23-.Net/gc.md/#2) What are the benefits of Garbage Collection in C#?
+- [#2](https://github.com/navidZee/interview-question/blob/main/c%23-.Net/gc.md#q2) <a name='q2'> What are the benefits of Garbage Collection in C#? </a>
   - Simplifies memory management: Garbage Collection eliminates the need for developers to manually manage memory, such as allocating and deallocating memory for objects. This allows developers to focus on writing code for the application logic rather than worrying about memory management.
 
   - Prevents memory leaks: Memory leaks occur when an application doesn't free up memory that it no longer needs, leading to a shortage of available memory. Garbage Collection automatically identifies and cleans up unused memory, preventing memory leaks and improving the stability of the application.
