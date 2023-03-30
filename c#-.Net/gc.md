@@ -1,0 +1,141 @@
+| Status              | Proposed                                  |
+| :------------------ | :---------------------------------------- |
+| **Author(s)**       | NZKarizi , ChatGPT                        | 
+| **Created**         | 2023-03-31                                |
+| **Updated**         | 2023-03-31                                |
+
+# Garbage Collection Interview Question
+- What is Garbage Collection in C#?
+- What are the benefits of Garbage Collection in C#?
+- What is the difference between automatic and manual Garbage Collection in C#?
+- How does Garbage Collection work in C#?
+- Can you explain the process of memory allocation and deallocation in C#?
+- What is the role of a Garbage Collector in C#?
+- What are the different types of Garbage Collectors in C#?
+- What is the role of the Finalizer in C#?
+- What are the consequences of improper use of Garbage Collection in C#?
+- Can you explain the terms ‘Heap’ and ‘Stack’ in C#?
+- What is the maximum size of the managed Heap in C#?
+- How can you optimize Garbage Collection performance in C#?
+- What is the role of Garbage Collection in C# Memory Management?
+- What is the purpose of the IDisposable interface in C#?
+- What is the IDisposable pattern in C#?
+- Can you explain the process of Finalization in C#?
+- What is the impact of Garbage Collection on the performance of C# applications?
+- How can you determine if your application needs Garbage Collection?
+- What are the common issues faced with Garbage Collection in C#?
+- Can you explain the role of the Garbage Collector thread in C#?
+- What is a Garbage Collector root in C#?
+- Can you explain how the Garbage Collector handles static variables in C#?
+- What is the difference between a weak reference and a strong reference in C#?
+- Can you explain how the Garbage Collector handles circular references in C#?
+- What are the different modes of Garbage Collection in C#?
+- How does Garbage Collection affect the performance of a multi-threaded application in C#?
+- Can you explain how the Garbage Collector handles large objects in C#?
+- What is the impact of Garbage Collection on the memory footprint of a C# application?
+- How can you debug Garbage Collection issues in C#?
+- What is the difference between an object and a value type in C#?
+- Can you explain how boxing and unboxing works in C#?
+- What is the difference between a stack allocation and a heap allocation in C#?
+- What is the difference between a reference type and a value type in C#?
+- What is a pinned object in C# and why is it important?
+- Can you explain the process of garbage collection of pinned objects in C#?
+- How can you force Garbage Collection in C#?
+- What is the role of the Finalizer in C#?
+- Can you explain the IDisposable interface in C#?
+- What is the IDisposable pattern in C#?
+- How can you use the IDisposable interface in C#?
+- What is the difference between Dispose and Finalize in C#?
+- Can you explain the process of Garbage Collection of disposable objects in C#?
+- How can you use the using statement in C#?
+- What is the role of the finalizer queue in C#?
+- What is the difference between the finalizer queue and the garbage collection queue in C#?
+- How can you implement a custom Garbage Collector in C#?
+- What is the role of the GC.WaitForPendingFinalizers method in C#?
+- What is the impact of disabling Garbage Collection in C#?
+- Can you explain how Generational Garbage Collection works in C#?
+- What are the different generations of objects in C#?
+- How does the Garbage Collector handle large objects in C#?
+- What is the Large Object Heap in C#?
+- How does the Garbage Collector handle pinned objects in C#?
+- What is a WeakReference in C#?
+- How can you use WeakReference in C#?
+- Can you explain the difference between a WeakReference and a StrongReference in C#?
+- What is a ConditionalWeakTable in C#?
+- Can you explain how the Garbage Collector handles arrays in C#?
+- What is the difference between a managed and unmanaged resource in C#?
+- How can you clean up unmanaged resources in C#?
+- What is the role of the IDisposable interface in cleaning up unmanaged resources in C#?
+- Can you explain how the GC.SuppressFinalize method works in C#?
+- What is the impact of implementing IDisposable in a class in C#?
+- What is the difference between a finalizer and a destructor in C#?
+- Can you explain how to use the Dispose Pattern in C#?
+- What is the role of the GC.Collect method in C#?
+- What is the difference between a blocking and non-blocking Garbage Collection in C#?
+- Can you explain the difference between the workstation and server Garbage Collectors in C#?
+- What is the impact of Garbage Collection on memory fragmentation in C#?
+- How can you diagnose memory leaks in C#?
+- Can you explain the role of the GC.GetTotalMemory method in C#?
+- What is the impact of Garbage Collection on application responsiveness in C#?
+- Can you explain how to optimize Garbage Collection in multi-threaded applications in C#?
+- What is the difference between the Garbage Collector and a Memory Manager in C#?
+- How can you use the GC.GetGeneration method in C#?
+- What is the role of the GCSettings class in C#?
+- How can you control the behavior of the Garbage Collector in C#?
+- Can you explain the relationship between the Garbage Collector and the Finalizer in C#?
+- What is the difference between a finalizable and non-finalizable object in C#?
+- How does the Garbage Collector handle unmanaged resources in C#?
+- What is the role of the GC.AddMemoryPressure method in C#?
+- Can you explain how the Garbage Collector handles static objects in C#?
+- What is the difference between a non-deterministic and deterministic Finalizer in C#?
+- How can you monitor the performance of Garbage Collection in C#?
+- Can you explain how to optimize Garbage Collection for low-latency applications in C#?
+- What is the difference between a Heap and a Stack in C#?
+- How does Garbage Collection affect the lifetime of objects in C#?
+- What is the role of the GC.Collect method in C#?
+- Can you explain how to use the GC.GetTotalMemory method in C#?
+- What is the role of the GC.WaitForFullGCComplete method in C#?
+- Can you explain the difference between the workstation and server Garbage Collectors in C#?
+- What is the difference between a blocking and non-blocking Garbage Collection in C#?
+- How can you optimize Garbage Collection in C# for high-performance applications?
+- What is the role of the GC.GetGeneration method in C#?
+- Can you explain how the GC.AddMemoryPressure method works in C#?
+- How does the Garbage Collector handle circular references in C#?
+- What is the role of the GC.WaitForPendingFinalizers method in C#?
+- How can you use the GC.SuppressFinalize method to optimize memory management in C#?
+- What is the role of the GC.GetTotalAllocatedBytes method in C#?
+- Can you explain how to optimize Garbage Collection in multi-process applications in C#?
+- How can you control the behavior of the Garbage Collector in C# using configuration files?
+- What is the role of the GC.RegisterForFullGCNotification method in C#?
+- Can you explain how to optimize Garbage Collection in server applications in C#?
+- What is the role of the GC.CollectionCount method in C#?
+- How can you optimize Garbage Collection in ASP.NET applications in C#?
+- What is the difference between a compacting and non-compacting Garbage Collector in C#?
+- Can you explain how to optimize Garbage Collection in Unity games in C#?
+- How can you optimize Garbage Collection in Xamarin apps in C#?
+- What is the role of the GC.TryStartNoGCRegion method in C#?
+- Can you explain how to optimize Garbage Collection in WPF applications in C#?
+- What is the role of the GC.WaitForFullGCApproach method in C#?
+- How can you use the GCSettings.LargeObjectHeapCompactionMode property to optimize memory management in C#?
+- What is the impact of Garbage Collection on CPU usage in C#?
+- Can you explain the difference between reference types and value types in C#?
+- How does Garbage Collection work with value types in C#?
+- What is the role of the GC.RemoveMemoryPressure method in C#?
+- Can you explain how to optimize Garbage Collection in Azure Functions in C#?
+- What is the impact of Garbage Collection on application scalability in C#?
+- How can you optimize Garbage Collection in Blazor apps in C#?
+- What is the role of the GCSettings.LatencyMode property in C#?
+- Can you explain how to optimize Garbage Collection in .NET Core apps in C#?
+- What is the role of the GC.GetTotalMemory method in C#?
+- How can you optimize Garbage Collection in Entity Framework applications in C#?
+- What is the role of the GC.Collect method in C#?
+- Can you explain how to optimize Garbage Collection in WCF applications in C#?
+- What is the role of the GCSettings.Concurrent property in C#?
+- How can you use the GC.GetAllocatedBytesForCurrentThread method to optimize memory management in C#?
+- What is the role of the GC.WaitForFullGCCompleteTimeout method in C#?
+- Can you explain how to optimize Garbage Collection in LINQ applications in C#?
+- What is the role of the GC.TryStartNoGCRegion method in C#?
+- How can you optimize Garbage Collection in .NET Framework apps in C#?
+- What is the role of the GC.GetTotalMemory method in C#?
+- Can you explain how to optimize Garbage Collection in Entity Framework Core applications in C#?
+- What is the role of the GCSettings.LargeObjectHeapCompactionMode property in C#?
