@@ -1,3 +1,3 @@
-# Interview Question Using ChatGPT
+# Interview Question By ChatGPT
 * C# - .Net
   * GC
