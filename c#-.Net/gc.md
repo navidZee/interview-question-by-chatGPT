@@ -8,16 +8,19 @@
 - [#1](https://github.com/navidZee/interview-question/blob/main/c%23-.Net/gc.md#q1) <a name='q1'> What is Garbage Collection in C#? </a>
   - Garbage collection in C# is the automatic process of managing memory allocation and deallocation for objects during program execution. In C#, objects are created on the heap, and the garbage collector periodically identifies objects that are no longer being used by the program and frees up their memory.
 
-
 - [#2](https://github.com/navidZee/interview-question/blob/main/c%23-.Net/gc.md#q2) <a name='q2'> What are the benefits of Garbage Collection in C#? </a>
   - Simplifies memory management: Garbage Collection eliminates the need for developers to manually manage memory, such as allocating and deallocating memory for objects. This allows developers to focus on writing code for the application logic rather than worrying about memory management.
-
   - Prevents memory leaks: Memory leaks occur when an application doesn't free up memory that it no longer needs, leading to a shortage of available memory. Garbage Collection automatically identifies and cleans up unused memory, preventing memory leaks and improving the stability of the application.
   - Improves performance: Garbage Collection can optimize memory usage by reclaiming memory that is no longer in use, reducing memory fragmentation and improving performance.
   - Enables dynamic memory allocation: Garbage Collection allows for dynamic memory allocation, where objects can be created and destroyed as needed during the runtime of an application. This provides greater flexibility for developers and can improve the efficiency of the application.
   - Reduces bugs: Memory-related bugs, such as accessing memory that has been freed or overwriting memory that is still in use, can be difficult to diagnose and fix. Garbage Collection reduces the likelihood of these bugs occurring, improving the overall quality of the application.
   - **Overall, Garbage Collection provides a convenient and efficient way to manage memory in C# applications, improving performance, stability, and developer productivity.**
-- What is the difference between automatic and manual Garbage Collection in C#?
+
+- [#3](https://github.com/navidZee/interview-question/blob/main/c%23-.Net/gc.md#q3) <a name='q3'> What is the difference between automatic and manual Garbage Collection in C#? </a>
+  -  The main difference between automatic and manual garbage collection in C# is in how memory is managed. With automatic garbage collection, the .NET runtime automatically tracks the usage of memory and determines when it is safe to free up unused memory. The developer does not need to worry about explicitly deallocating memory or tracking references to objects.
+  - In contrast, with manual garbage collection, developers must manually allocate and deallocate memory using methods such as new and delete. This can be a time-consuming and error-prone process, especially in complex applications with many objects and references.
+  - **Overall, automatic garbage collection in C# is generally considered to be a safer and more efficient approach to memory management, as it reduces the risk of memory leaks and other memory-related errors. However, manual garbage collection may still be necessary in certain specialized scenarios, such as when working with unmanaged resources.**
+
 - How does Garbage Collection work in C#?
 - Can you explain the process of memory allocation and deallocation in C#?
 - What is the role of a Garbage Collector in C#?
